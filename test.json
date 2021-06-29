@@ -1,30 +1,401 @@
-[
-  "fruit" : {
+{
+  "Animal" : {
     "Q1" : {
-      "A" : "Mango",
-      "B" : "Kivi",
-      "C" : "Banana",
-      "D" : "Apple",
-      "ans" : "D",
-      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/Fruit%2Fapple.jpg?alt=media&token=3da9bd87-0b32-4293-9bcb-025b204917cb"
+      "A" : "ziraff",
+      "B" : "camel",
+      "C" : "hippo",
+      "D" : "tiger",
+      "ans" : "camel",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/Animal%2FCamel.jpg?alt=media&token=e04e2630-2a2f-49b2-bac9-679d05a08738"
     },
     "Q2" : {
+      "A" : "fox",
+      "B" : "wolf",
+      "C" : "dog",
+      "D" : "cat",
+      "ans" : "cat",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/Animal%2FCat.jpg?alt=media&token=15775eb2-4613-42b5-8c44-9b2bc526ad05"
+    },
+    "Q3" : {
+      "A" : "lion",
+      "B" : "tiger",
+      "C" : "cheetah",
+      "D" : "panther",
+      "ans" : "cheetah",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/Animal%2FCheetah.jpg?alt=media&token=7a829d86-8ead-42cd-9e6a-a187e449c56f"
+    },
+    "Q4" : {
+      "A" : "donkey",
+      "B" : "camel",
+      "C" : "cow",
+      "D" : "buffalo",
+      "ans" : "cow",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/Animal%2FCow.jpg?alt=media&token=9132a3f3-1c26-4058-b5b7-3a1ae3aea341"
+    },
+    "Q5" : {
+      "A" : "hippo",
+      "B" : "elephant",
+      "C" : "rhino",
+      "D" : "panda",
+      "ans" : "elephant",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/Animal%2FElephant.jpg?alt=media&token=655e3939-3cc9-49dd-ba26-d69c8faed1f3"
+    },
+    "Q6" : {
+      "A" : "horse",
+      "B" : "camel",
+      "C" : "cow",
+      "D" : "dear",
+      "ans" : "horse",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/Animal%2FHorse.jpg?alt=media&token=1c4b1216-129f-40cb-82bb-c92a2ecd1578"
+    },
+    "Q7" : {
+      "A" : "donkey",
+      "B" : "hippo",
+      "C" : "panda",
+      "D" : "buffelo",
+      "ans" : "panda",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/Animal%2FPanda.jpg?alt=media&token=5c5f4463-8258-44fc-89ed-036eb1724d98"
+    },
+    "Q8" : {
+      "A" : "tiger",
+      "B" : "cheetah",
+      "C" : "lion",
+      "D" : "leaped",
+      "ans" : "lion",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/Animal%2FLion.png?alt=media&token=66cb3206-efcb-49d9-a7cf-15eaaee874dc"
+    }
+  },
+  "birds" : {
+    "Q1" : {
+      "A" : "duck",
+      "B" : "crow",
+      "C" : "owl",
+      "D" : "bat",
+      "ans" : "bat",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/birds%2FBat.jpg?alt=media&token=074178e3-5aa8-4c7a-aecc-cd11a51f3215"
+    },
+    "Q2" : {
+      "A" : "kite",
+      "B" : "butterfly",
+      "C" : "kingphisher",
+      "D" : "robin",
+      "ans" : "butterfly",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/birds%2FButterfly.jpg?alt=media&token=35411a08-4b18-4614-98c7-108add14cb60"
+    },
+    "Q3" : {
+      "A" : "crow",
+      "B" : "duck",
+      "C" : "kite",
+      "D" : "owl",
+      "ans" : "crow",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/birds%2FCrow.jpg?alt=media&token=e2586a3a-c684-47a5-a4c4-25c149e74152"
+    },
+    "Q4" : {
+      "A" : "sparrow",
+      "B" : "penguin",
+      "C" : "peacoke",
+      "D" : "parrot",
+      "ans" : "parrot",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/birds%2FParrot.jpg?alt=media&token=8d577d55-a6f6-4ac2-97b8-8b442e175c3f"
+    },
+    "Q5" : {
+      "A" : "peacoke",
+      "B" : "robin",
+      "C" : "pigeon",
+      "D" : "parrot",
+      "ans" : "peacock",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/birds%2FPeacock.jpg?alt=media&token=59941c6e-b5d7-4f4a-9838-4b626dd08d18"
+    },
+    "Q6" : {
+      "A" : "Pigeon",
+      "B" : "parrot",
+      "C" : "cite",
+      "D" : "duck",
+      "ans" : "Pigeon",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/birds%2FPigeon.jpg?alt=media&token=1599623e-2425-46b4-a32d-dd047bf96e1c"
+    },
+    "Q7" : {
+      "A" : "peacock",
+      "B" : "crow",
+      "C" : "sparrow",
+      "D" : "owl",
+      "ans" : "sparrow",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/birds%2FSparrow.jpg?alt=media&token=9db0286a-3898-49ae-940f-d8dee4b336f4"
+    },
+    "Q8" : {
+      "A" : "bat",
+      "B" : "cite",
+      "C" : "robin",
+      "D" : "kingphisher",
+      "ans" : "cite",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/birds%2Fcite.jpg?alt=media&token=eda7bf12-614d-4d23-803a-eb5e28e2afd2"
+    }
+  },
+  "color" : {
+    "Q1" : {
+      "A" : "brown",
+      "B" : "black",
+      "C" : "blue",
+      "D" : "white",
+      "ans" : "black",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/color%2Fblack.png?alt=media&token=94158c2a-1012-4b2d-87d3-32d93290cf14"
+    },
+    "Q2" : {
+      "A" : "blue",
+      "B" : "white",
+      "C" : "green",
+      "D" : "yellow",
+      "ans" : "blue",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/color%2Fblue.jpg?alt=media&token=12eaf46a-aae4-4170-844c-e584995b9cfb"
+    },
+    "Q3" : {
+      "A" : "blue",
+      "B" : "pink",
+      "C" : "gray",
+      "D" : "brown",
+      "ans" : "brown",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/color%2Fbrown.jpg?alt=media&token=dd6f73b8-a07e-4bc0-b8cc-8f40d095e16b"
+    },
+    "Q4" : {
+      "A" : "red",
+      "B" : "yellow",
+      "C" : "green",
+      "D" : "orange",
+      "ans" : "green",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/color%2Fgreen.jpg?alt=media&token=77db2b75-59b8-441d-93c4-57e6ab61983b"
+    },
+    "Q5" : {
+      "A" : "black",
+      "B" : "orange",
+      "C" : "red",
+      "D" : "white",
+      "ans" : "orange",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/color%2Forange.png?alt=media&token=9ca4ca15-1dfa-4d6c-80b0-4422d1603b9e"
+    },
+    "Q6" : {
+      "A" : "pink",
+      "B" : "blue",
+      "C" : "green",
+      "D" : "gray",
+      "ans" : "pink",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/color%2Fpink.jpg?alt=media&token=a2757475-da6b-429f-a06d-2e4ae60f2af8"
+    },
+    "Q7" : {
+      "A" : "pink",
+      "B" : "marron",
+      "C" : "sky blue",
+      "D" : "white",
+      "ans" : "white",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/color%2Fwhite.png?alt=media&token=56e04a22-f44b-4df3-bfa5-939fb095f233"
+    },
+    "Q8" : {
+      "A" : "yellow",
+      "B" : "green",
+      "C" : "red",
+      "D" : "blue",
+      "ans" : "yellow",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/color%2Fyellow.jpg?alt=media&token=f133adae-8ed9-4aef-a42d-d2d80cdbbc85"
+    }
+  },
+  "fruit" : {
+    "Q1" : {
       "A" : "banana",
       "B" : "mango",
       "C" : "apple",
       "D" : "avacado",
-      "ans" : "D",
+      "ans" : "avacado",
       "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/Fruit%2FAvacado.jpg?alt=media&token=84c46abe-bb51-46b3-b285-9a0011c20a24"
+    },
+    "Q2" : {
+      "A" : "pie",
+      "B" : "anar",
+      "C" : "apple",
+      "D" : "graps",
+      "ans" : "anar",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/Fruit%2Fanar.jpg?alt=media&token=288cfae0-5f14-45fc-a6a6-add243952a36"
+    },
+    "Q3" : {
+      "A" : "apple",
+      "B" : "anar",
+      "C" : "avacado",
+      "D" : "graps",
+      "ans" : "apple",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/Fruit%2Fapple.jpg?alt=media&token=3da9bd87-0b32-4293-9bcb-025b204917cb"
+    },
+    "Q4" : {
+      "A" : "banana",
+      "B" : "watermallon",
+      "C" : "stowbwerry",
+      "D" : "papaya",
+      "ans" : "banana",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/Fruit%2Fbanana.jpg?alt=media&token=51277c2b-c4ab-46d7-8a9f-fcdc0263b4eb"
+    },
+    "Q5" : {
+      "A" : "guava",
+      "B" : "anar",
+      "C" : "graps",
+      "D" : "papaya",
+      "ans" : "graps",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/Fruit%2Fgraps.jpg?alt=media&token=263d8df6-0869-46dc-9bdf-9f715948ed36"
+    },
+    "Q6" : {
+      "A" : "guava",
+      "B" : "watermallon",
+      "C" : "stowbwerry",
+      "D" : "graps",
+      "ans" : "guava",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/Fruit%2Fguava.jpg?alt=media&token=9c0327ea-3124-4564-b785-e24fe6e6df71"
+    },
+    "Q7" : {
+      "A" : "guava",
+      "B" : "watermallon",
+      "C" : "orange",
+      "D" : "papaya",
+      "ans" : "papaya",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/Fruit%2Fpapaya.jpg?alt=media&token=68851ad2-b6fa-4666-8e8d-4124291b8e3b"
+    },
+    "Q8" : {
+      "A" : "guava",
+      "B" : "Apple",
+      "C" : "stowbwerry",
+      "D" : "graps",
+      "ans" : "stowbwerry",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/Fruit%2Fstowbwerry.jpg?alt=media&token=208caaa1-a637-4938-b841-dd09703bf862"
     }
   },
   "vegetable" : {
     "Q1" : {
       "A" : "tamato",
+      "B" : "patato",
+      "C" : "cabbage",
+      "D" : "flower",
+      "ans" : "cabbage",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/vege%2FCabbage.jpg?alt=media&token=7b88586d-5d68-4191-96f8-096a0a7076df"
+    },
+    "Q2" : {
+      "A" : "chilli",
       "B" : "lemon",
-      "C" : "jdjfb",
-      "D" : "djbjbd",
-      "ans" : "A",
-      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/vege%2Ftamato.jpg?alt=media&token=576f456b-3a79-4e8d-ad91-21f309fe6d45"
+      "C" : "tamato",
+      "D" : "onions",
+      "ans" : "chilli",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/vege%2FChilli.jpg?alt=media&token=d922bb23-2d5c-4ec9-9d34-6bc8a892d060"
+    },
+    "Q3" : {
+      "A" : "Bitter",
+      "B" : "patato",
+      "C" : "corn",
+      "D" : "brinjal",
+      "ans" : "corn",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/vege%2Fcorn.jpg?alt=media&token=b9e2b380-3358-4bae-9a95-eeba6df88201"
+    },
+    "Q4" : {
+      "A" : "tamato",
+      "B" : "lemon",
+      "C" : "onion",
+      "D" : "cucumbers",
+      "ans" : "lemon",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/vege%2FLemon.jpg?alt=media&token=c07256bb-8a55-40e5-98dc-7e05d5b573ae"
+    },
+    "Q5" : {
+      "A" : "Potato",
+      "B" : "tamato",
+      "C" : "lemon",
+      "D" : "chili",
+      "ans" : "Potato",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/vege%2FPotato.jpg?alt=media&token=da80cb83-f859-46fd-9b83-127724c5e79c"
+    },
+    "Q6" : {
+      "A" : "cucumber",
+      "B" : "lady-finger",
+      "C" : "corn",
+      "D" : "brinjal",
+      "ans" : "brinjal",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/vege%2Fbrinjal.jpg?alt=media&token=cb5047a9-ee28-457f-8c59-14e8c407fc1f"
+    },
+    "Q7" : {
+      "A" : "lemon",
+      "B" : "chili",
+      "C" : "tamato",
+      "D" : "onion",
+      "ans" : "tamato",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/vege%2Ftamato.jpg?alt=media&token=040e34a3-1ac5-4ecf-8c7a-5d08b3d5f3ba"
+    },
+    "Q8" : {
+      "A" : "cucumbers",
+      "B" : "lemon",
+      "C" : "onion",
+      "D" : "potato",
+      "ans" : "cucumbers",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/vege%2Fcucumbers.jpg?alt=media&token=6582a405-a4d7-471b-8a44-dc0c5b420018"
     }
+  },
+  "vehical" : {
+    "Q1" : {
+      "A" : "bus",
+      "B" : "car",
+      "C" : "aeroplane",
+      "D" : "bike",
+      "ans" : "aeroplane",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/vechical%2Faeroplane.png?alt=media&token=e8c27954-a98e-4a3b-97c7-802e6765e978"
+    },
+    "Q2" : {
+      "A" : "bus",
+      "B" : "auto-rickshaw",
+      "C" : "scooter",
+      "D" : "bike",
+      "ans" : "auto-rickshaw",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/vechical%2Fauto-rickshaw.png?alt=media&token=a77ad959-859b-46dd-bfcf-2d7d70094ce4"
+    },
+    "Q3" : {
+      "A" : "bike",
+      "B" : "scooter",
+      "C" : "car",
+      "D" : "bicycle",
+      "ans" : "bicycle",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/vechical%2Fbicycle.png?alt=media&token=c80a9b09-e18a-405b-9d4c-945dbd4495cb"
+    },
+    "Q4" : {
+      "A" : "bus",
+      "B" : "car",
+      "C" : "jeep",
+      "D" : "bike",
+      "ans" : "car",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/vechical%2Fcar.png?alt=media&token=f5d87990-08f9-4bdc-a64f-24af54a82034"
+    },
+    "Q5" : {
+      "A" : "helicopter",
+      "B" : "bus",
+      "C" : "aeroplane",
+      "D" : "tractor",
+      "ans" : "helicopter",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/vechical%2Fhelicopter.png?alt=media&token=e4e58fb6-0304-426c-89dd-c7b5daecda06"
+    },
+    "Q6" : {
+      "A" : "bus",
+      "B" : "tractor",
+      "C" : "jeep",
+      "D" : "truck",
+      "ans" : "tractor",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/vechical%2Ftractor.png?alt=media&token=92f8ed18-5b19-4151-991c-8a02f7ef7e24"
+    },
+    "Q7" : {
+      "A" : "truck",
+      "B" : "car",
+      "C" : "ship",
+      "D" : "motorcycle",
+      "ans" : "motorcycle",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/vechical%2Fmotorcycle.png?alt=media&token=d1c6ec4c-72bd-4f2c-87fe-62484572f17f"
+    },
+    "Q8" : {
+      "A" : "bus",
+      "B" : "aeroplan",
+      "C" : "ship",
+      "D" : "boat",
+      "ans" : "ship",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/vechical%2Fship.png?alt=media&token=45f860d1-ddb8-4ad7-8b78-511635dbfa1b"
+    }
+  
+    
+  
   }
-]
+}
