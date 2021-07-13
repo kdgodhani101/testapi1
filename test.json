@@ -263,6 +263,52 @@
       "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/Fruit%2Fstowbwerry.jpg?alt=media&token=208caaa1-a637-4938-b841-dd09703bf862"
     }]
   ,
+  
+  "Maths" :
+  [{
+   
+      "a" : 5,
+      "ans" : 1,
+      "b" : 4,
+      "c" : 1,
+      "d" : 2,
+      "str" : "5*_ = 5"
+  },
+  {
+  
+      "a" : 10,
+      "ans" : 11,
+      "b" : 5,
+      "c" : 9,
+      "d" : 11,
+      "str" : "5 + 6 = _"
+    },
+    {
+      "a" : 1,
+      "ans" : 5,
+      "b" : 5,
+      "c" : 9,
+      "d" : 2,
+      "str" : "9 - 4= _"
+    },
+     {
+      "a" : 6,
+      "ans" : 3,
+      "b" : 9,
+      "c" : 3,
+      "d" : 2,
+      "url" : "2 * _ =6"
+    },
+    {
+   
+      "a" : 2,
+      "ans" : 3,
+      "b" : 6,
+      "c" : 3,
+      "d" : 4,
+      "url" : "9 / 3 = _"
+    }]
+   ,
   "vegetable" : 
     [ {
       "A" : "tamato",
