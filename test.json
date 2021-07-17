@@ -525,4 +525,12 @@
       "D" : "boat",
       "ans" : "ship",
       "url" : "https://firebasestorage.googleapis.com/v0/b/instaviewer-4ced0.appspot.com/o/vechical%2Fship.png?alt=media&token=45f860d1-ddb8-4ad7-8b78-511635dbfa1b"
-    }]}
+    }],
+  {
+    "ads" : {
+      "app id" : "ca-app-pub-3940256099942544~3347511713",
+      "banner" : "ca-app-pub-3940256099942544/6300978111",
+      "inter" : "ca-app-pub-3940256099942544/1033173712"
+  }
+}
+}
